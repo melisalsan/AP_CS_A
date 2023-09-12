@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+
+// 25 lines of code challenge 
+// sincerely,
+
 public class 25Lines {
     public static voic main(String[] args){
         
