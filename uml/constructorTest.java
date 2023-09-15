@@ -4,20 +4,22 @@
 
 // works (lütfen dokunma)
 
-class Pen 
-{
-
-private String color;
-private boolean isErasable;
-
-public Pen(String color, boolean isErasable) 
+class Pen // create class pen
 {
    
-    this.color = color;
-    this.isErasable = isErasable;
+// instance variables
+private String color; // private var decleration
+private boolean isErasable; // private var declaration
+
+public Pen(String color, boolean isErasable)  // obje constructoru
+{
+   // 
+    this.color = color; // objenin renk zımbırtısı
+    this.isErasable = isErasable; // objenin özelligi
 
 }
 
+   // accessors 
 public String getColor() {
     return color;
 } 
@@ -26,6 +28,7 @@ public boolean isErasable() {
     return isErasable;
 }
 
+   // mutators
 public void setColor(String c){
     this.color = c;
 }
@@ -34,7 +37,7 @@ public void setErasable(boolean e){
     this.isErasable = e;
 }
 
-
+// to string zımbırtsı
 public String toString() {
     if(isErasable)
     {
@@ -53,9 +56,11 @@ public static void main(String[] args)
 {
     System.out.print("\033c");
 
+   // lamy ve rotring objelerini oluşturmaca
     Pen Lamy = new Pen("blue", false); // CREATES OBJECT LAMY
     Pen Rotring = new Pen("red", true); // CREATES OBJECT ROTRING
 
+   // basmaca
     System.out.println(Lamy);
     System.out.println(Rotring);
 }
