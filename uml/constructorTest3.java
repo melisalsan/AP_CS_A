@@ -53,6 +53,12 @@ public class constructorTest3 {
         System.out.println(duman);
         System.out.println(ACDC);
     
+        duman.setYear(2018);
+        System.out.println(duman.getYear());
+        System.out.println(ACDC.getArtist());
+        
+
+
         
     }
 }
