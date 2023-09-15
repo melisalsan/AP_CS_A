@@ -60,9 +60,12 @@ public static void main(String[] args)
 
     Dog dog1 = new Dog("joni", "matlese", 4); // creates dog1
     Dog dog2 = new Dog("kerim", "yakisikli", 2); // CREATES OBJECT kerim
+    Dog dog3 = new Dog("uraz", "insan", 3); // creates object uraz
 
     System.out.println(dog1);
     System.out.println(dog2);
+    System.out.println(dog3);
+    
 
     
 }
