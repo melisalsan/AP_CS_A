@@ -4,10 +4,10 @@ Notes from runeStone academy: 'Primitive Type Unite 1 Reading Section'
 ## First Java Program:
 
 '''
- public class MyClass
-{
-public static void main(String[] args)
-  {
-       // Put your code here!
+ public class MyClass \n
+{ \n
+public static void main(String[] args) \n
+  { \n
+       // Put your code here! \n
    }
 '''
