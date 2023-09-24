@@ -4,6 +4,10 @@ Notes from runeStone academy: 'Primitive Type Unite 1 Reading Section'
 ## First Java Program:
 
 '''
+
+
+
+
  public class MyClass
 {
 public static void main(String[] args)
@@ -12,5 +16,7 @@ public static void main(String[] args)
    }
 
 }
+
+
 
 '''
