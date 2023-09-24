@@ -1,6 +1,7 @@
 # Unite 1 Primitive Type RT
 Notes from runeStone academy & College Board: 
 'Primitive Type Unite 1 Reading Section' --done
+
 College Board Unit 1 --done
 
 ## First Java Notes:
