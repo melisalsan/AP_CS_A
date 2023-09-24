@@ -1,5 +1,7 @@
 # Unite 1 Primitive Type RT
-Notes from runeStone academy: 'Primitive Type Unite 1 Reading Section'
+Notes from runeStone academy & College Board: 
+'Primitive Type Unite 1 Reading Section' --done
+College Board Unit 1 --done
 
 ## First Java Notes:
 
@@ -47,6 +49,15 @@ There are two types of variables in Java: **primitive variables** that hold prim
 
 > A type is a set of values (a domain) and a set of operations on them. For example, you can do addition with int’s and double’s but not with booleans and Strings.
 
+There are limits to the data that can be stored in variables. 
+- int max: Integer.MAXVALUE
+- int min: Integer.MINVALUE
+
+- double: up to 14-15 digits
+- boolean: true or false
+
+
+
 **To create a variable**, you must tell Java its data type and its name. Creating a variable is also called declaring a variable. The type is a keyword like int, double, or boolean, but you get to make up the name for the variable. When you create a primitive variable Java will set aside enough bits in memory for that primitive type and associate that memory location with the name that you used.
 
 Computers store all values using bits (binary digits). A bit can represent two values and we usually say that the value of a bit is either 0 or 1. When you declare a variable, you have to tell Java the type of the variable because Java needs to know how many bits to use and how to represent the value. The 3 different primitive types all require different number of bits. An integer gets 32 bits of memory, a double gets 64 bits of memory and a boolean could be represented by just one bit.
@@ -57,17 +68,17 @@ When you are printing out variables, you can use the string concatenation operat
 
 Assignment statements initialize or change the value stored in a variable using the assignment operator =. An assignment statement always has a single variable on the left hand side. The value of the expression (which can contain math operators and other variables) on the right of the = sign is stored in the variable on the left.
 
-Instead of saying equals for the = in an assignment statement, say “gets” or “is assigned” to remember that the variable gets or is assigned the value on the right. 
+- Instead of saying equals for the = in an assignment statement, say “gets” or “is assigned” to remember that the variable gets or is assigned the value on the right. 
 
-Java uses the standard mathematical operators for addition (+), subtraction (-), and division (/). The multiplication operator is written as *, as it is in most programming languages, since the character sets used until relatively recently didn’t have a character for a real multiplication sign, ×, and keyboards still don’t have a key for it. Likewise no ÷.
+- Java uses the standard mathematical operators for addition (+), subtraction (-), and division (/). The multiplication operator is written as *, as it is in most programming languages, since the character sets used until relatively recently didn’t have a character for a real multiplication sign, ×, and keyboards still don’t have a key for it. Likewise no ÷.
 
-You may be used to using ^ for exponentiation, either from a graphing calculator or tools like Desmos. Confusingly ^ is an operator in Java, but it has a completely different meaning than exponentiation and isn’t even exactly an arithmetic operator. You will learn how to use the Math.pow method to do exponents in Unit 2.
+- You may be used to using ^ for exponentiation, either from a graphing calculator or tools like Desmos. Confusingly ^ is an operator in Java, but it has a completely different meaning than exponentiation and isn’t even exactly an arithmetic operator. You will learn how to use the Math.pow method to do exponents in Unit 2.
 
-Arithmetic expressions can be of type int or double. An arithmetic expression consisting only of int values will evaluate to an int value. An arithmetic expression that uses at least one double value will evaluate to a double value. (You may have noticed that + was also used to combine String and other values into new Strings. More on this when we talk about Strings more fully in Unit 2.)
+- Arithmetic expressions can be of type int or double. An arithmetic expression consisting only of int values will evaluate to an int value. An arithmetic expression that uses at least one double value will evaluate to a double value. (You may have noticed that + was also used to combine String and other values into new Strings. More on this when we talk about Strings more fully in Unit 2.)
 
-Java uses the operator == to test if the value on the left is equal to the value on the right and != to test if two items are not equal. Don’t get one equal sign = confused with two equal signs ==. They mean very different things in Java. One equal sign is used to assign a value to a variable. Two equal signs are used to test a variable to see if it is a certain value and that returns true or false as you’ll see below. Also note that using == and != with double values can produce surprising results. Because double values are only an approximation of the real numbers even things that should be mathematically equivalent might not be represented by the exactly same double value and thus will not be ==. 
+- Java uses the operator == to test if the value on the left is equal to the value on the right and != to test if two items are not equal. Don’t get one equal sign = confused with two equal signs ==. They mean very different things in Java. One equal sign is used to assign a value to a variable. Two equal signs are used to test a variable to see if it is a certain value and that returns true or false as you’ll see below. Also note that using == and != with double values can produce surprising results. Because double values are only an approximation of the real numbers even things that should be mathematically equivalent might not be represented by the exactly same double value and thus will not be ==. 
 
-The operator % in Java is the remainder operator. Like the other arithmetic operators is takes two operands. Mathematically it returns the remainder after dividing the first number by the second, using truncating integer division. For instance, 5 % 2 evaluates to 1 since 2 goes into 5 two times with a remainder of 1.
+- The operator % in Java is the remainder operator. Like the other arithmetic operators is takes two operands. Mathematically it returns the remainder after dividing the first number by the second, using truncating integer division. For instance, 5 % 2 evaluates to 1 since 2 goes into 5 two times with a remainder of 1.
 
 **Compound assignment** operators are shortcuts that do a math operation and assignment in one step. For example, x += 1 adds 1 to the current value of x and assigns the result back to x. It is the same as x = x + 1. This pattern is possible with any operator put in front of the = sign, as seen below. If you need a mnemonic to remember whether the compound operators are written like += or =+, just remember that the operation (+) is done first to produce the new value which is then assigned (=) back to the variable. So it’s operator then equal sign: +=.
 
@@ -122,6 +133,6 @@ Casting an int to double, as shown in the code above, produces a double value wh
 - If an expression would evaluate to an int value outside of the allowed range, an integer overflow occurs. This could result in an incorrect value within the allowed range.
 
 XOXO
-melso
+melso .)
 
 
