@@ -142,15 +142,15 @@ The code above declares an object variable named greeting and sets the value of 
 
 In Java there are two ways to create an object of the String class. You can use the new keyword followed by a space and then the class constructor and then in parentheses you can include values used to initialize the fields of the object. This is the standard way to create a new object of a class in Java.
 
-'''
+' ' '
 String greeting = new String("Hello");
-'''
+' ' '
 
 In Java you can also use just a string literal, which is a set of characters enclosed in double quotes ("), to create a String object.
 
-'''
+' ' '
 String greeting = "Hello";
-'''
+' ' '
 
  A class can inherit object fields and methods from a parent class, just like you might inherit musical ability from a parent.
 
@@ -265,19 +265,13 @@ Java will actually return the maximum integer value if you try to subtract one f
 
   double doubleValue() : Returns the value of this Double as a double.
 
- > Autoboxing is the automatic conversion that the Java compiler makes between primitive types and their corresponding object wrapper       
-  classes. This includes converting an int to an Integer and a double to a Double.
+ > Autoboxing is the automatic conversion that the Java compiler makes between primitive types and their corresponding object wrapper       classes. This includes converting an int to an Integer and a double to a Double. The Java compiler applies autoboxing when a primitive value is:
+* Passed as a parameter to a method that expects an object of the corresponding wrapper class.
+* Assigned to a variable of the corresponding wrapper class.
 
-    The Java compiler applies autoboxing when a primitive value is:
-    Passed as a parameter to a method that expects an object of the corresponding wrapper class.
-    Assigned to a variable of the corresponding wrapper class.
-
-  > Unboxing is the automatic conversion that the Java compiler makes from the wrapper class to the primitive type. This includes converting   an Integer to an int and a Double to a double.
-
-    The Java compiler applies unboxing when a wrapper class object is:
-
-    Passed as a parameter to a method that expects a value of the corresponding primitive type.
-    Assigned to a variable of the corresponding primitive type
+  > Unboxing is the automatic conversion that the Java compiler makes from the wrapper class to the primitive type. This includes converting an Integer to an int and a Double to a double. The Java compiler applies unboxing when a wrapper class object is:
+  * Passed as a parameter to a method that expects a value of the corresponding primitive type.
+  * Assigned to a variable of the corresponding primitive type
 
 ## Hello Math in Java
 These methods are in the Math class defined in the java.lang package. These are static methods which means you can call them by just using ClassName.methodName() without creating an object. This is why we can just say Math.random() instead of having to define an object of the class Math.
