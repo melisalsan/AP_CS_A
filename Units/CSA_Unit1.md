@@ -9,6 +9,11 @@ College Board Unit 1 --done
 In Java every open curly brace { must have a matched close curly brace }. These are used to start and end class definitions and method definitions.
 
 You must name the file the same name as the class name with “.java” as the extension. All code (programs) in Java must be defined inside a class in a source file, and the name of the class must match the file name.
+Computers don’t actually speak Java so we have to compile (translate) Java source files that we write into class files which is code that a computer can understand and run.
+
+Syntax errors are reported to you by the compiler if your Java code is not correctly written. Examples of syntax errors are a semicolon ; missing or if the code has a open curly brace { or open quote ", but no close curly brace } or close quote ". Informally, a syntax error is called a bug, and the process of removing errors is called debugging. 
+
+
 
 ## Methods to Print Output on the Screen
 Java has two different methods to print output to the screen:
@@ -35,6 +40,7 @@ The compiler tries to run your code, but if your code has syntax errors, you wil
 
 A variable is a name associated with a memory location in the computer, where you can store a value that can change or vary.
 When you play a game, it will often have a score. Scores often start at 0 and increase, so they can change. A score can be stored in a variable.
+
 
 ## Data Types
 
